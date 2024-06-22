@@ -1,0 +1,56 @@
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.container{
+   position: relative;
+   .screen{
+      position: absolute;
+      top: 48px;
+      left: 125px;
+      width: 245px;
+      text-align: end;
+      padding: 10px 0;
+      padding-right: 15px;
+      border-radius: 10px;
+      font-size: 70px;
+      background: white;
+      font-family: Arial, sans-serif;
+      border: none;
+      outline: none;
+   }
+   .addBtn{
+      position: absolute;
+      top: 315px;
+      left: 190px;
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      background: rgb(209,209,209);
+      background: linear-gradient(90deg, rgba(209,209,209,1) 0%, rgba(176,176,176,1) 100%);
+      border: 2px solid gray;
+      outline: none;
+   }
+   .addBtn:active{
+      width: 128.5px;
+      height: 128.5px;  
+   }
+   .deleteBtn{
+      position: absolute;
+      top: 278px;
+      left: 323px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgb(209,209,209);
+      background: linear-gradient(90deg, rgba(209,209,209,1) 0%, rgba(176,176,176,1) 100%);
+      border: 2px solid gray;
+      outline: none;
+   }
+   .deleteBtn:active{
+      width: 39.5px;
+      height: 39.5px;  
+   }
+}
